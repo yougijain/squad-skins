@@ -1,0 +1,9 @@
+{
+  "name": "squad-skins",
+  "version": "0.1.0",
+  "main": "background.js",
+  "scripts": {
+    "build": "echo \"no build step yet\""
+  },
+  "dependencies": {}
+}

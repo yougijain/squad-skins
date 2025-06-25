@@ -1,3 +1,9 @@
+# My additions:
+node_modules/
+dist/
+*.opk
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

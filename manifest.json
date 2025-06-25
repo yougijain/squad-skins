@@ -1,0 +1,37 @@
+{
+  "manifest_version": 1,
+  "type": "Web",
+  "meta": {
+    "name": "Squad Skins",
+    "version": "0.1.0",
+    "minimum_overwolf_version": "0.165.0"
+  },
+  "permissions": [
+    "GameInfo",
+    "System.Events",
+    "WindowManagement",
+    "Games"
+  ],
+  "data": {
+    "start_window": "background.html"
+  },
+  "windows": {
+    "background": {
+      "file": "background.html",
+      "transparent": true,
+      "resizable": false,
+      "show_in_taskbar": false,
+      "size": { "width": 1, "height": 1 }
+    },
+    "in_game_overlay": {
+      "file": "src/index.html",
+      "show_in_game": true,
+      "clickthrough": false,
+      "size": { "width": 350, "height": 80 }
+    }
+  },
+  "games": {
+    "game_source": "riot",
+    "supported_games": [ "league_of_legends" ]
+  }
+}
